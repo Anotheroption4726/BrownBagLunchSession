@@ -4,6 +4,7 @@ public class MonobehaviorScript : MonoBehaviour
 {
     //CSharpClass_A m_ClassA = new CSharpClass_A(1);
     CSharpClass m_ClassA;
+    CSharpAbstractClass m_ClassB;
 
     void Start()
     {
@@ -15,6 +16,9 @@ public class MonobehaviorScript : MonoBehaviour
 
         m_ClassA.ParamInt = CSharpStaticClass.StaticParamInt;
         Debug.Log(m_ClassA.ParamInt);
+
+        //m_ClassB = new CSharpAbstractClass();
+        //m_ClassB = new CSharpClass();
     }
 
 
