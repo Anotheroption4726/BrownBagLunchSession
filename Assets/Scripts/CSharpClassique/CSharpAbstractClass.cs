@@ -1,6 +1,6 @@
 ﻿public abstract class CSharpAbstractClass
 {
-    private int abstractParamInt;
+    private int abstractParamInt = 4;
 
     public int GetAbstractParamInt()
     {
